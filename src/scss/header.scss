@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  padding: 10px 0;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+
+  &__logo {
+    width: 50px;
+    background-color: #000;
+  }
+
+  &__menu ul {
+    display: flex;
+
+    > li {
+      margin: 0 25px;
+    }
+  }
+
+  .burger-menu {
+    display: none;
+  }
+}

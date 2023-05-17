@@ -1,0 +1,9 @@
+# folders
+gulp/
+dist/
+node_modules/
+
+# files
+gulpfile.js
+package.json
+package-lock.json

@@ -1,0 +1,23 @@
+@import "reset";
+@import "fonts";
+@import "header";
+
+body {
+  font-family: Intro_Bold_Regular;
+  font-size: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1530px;
+
+  main {
+    height: 90vh;
+  }
+
+  footer {
+    height: 90px;
+  }
+}
